@@ -1,0 +1,41 @@
+.card {
+}
+.card h2 {
+  font-size: 22px;
+  color: white;
+}
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn__sa {
+  display: flex;
+}
+
+.btn__sa > button {
+  width: 100px;
+  border-radius: 26px;
+  color: white;
+  background-color: #1a0c23;
+  border: 1px solid rgb(84, 83, 83);
+  margin-right: 16px;
+  font-size: 16px;
+}
+
+.btn__sa > button:hover {
+  background-color: purple;
+}
+
+.btn .btn__all {
+  color: #888;
+  font-size: 16px;
+  float: right;
+  margin-right: 20px;
+  height: 22px;
+}
+
+.btn__all:hover {
+  color: #fff;
+}

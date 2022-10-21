@@ -1,0 +1,26 @@
+.song {
+  display: flex;
+  gap: 16px;
+  width: 30%;
+  padding: 6px 6px;
+  margin: 6px;
+}
+.song__img img {
+  height: auto;
+  width: auto;
+  border-radius: 6px;
+}
+h4 {
+  color: #fff;
+  margin: 0 0;
+}
+p {
+  color: #ccc;
+  margin: 0 0;
+  font-size: 15px;
+}
+.song:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  transition: transform 0.5s ease;
+}
