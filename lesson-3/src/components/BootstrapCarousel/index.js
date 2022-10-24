@@ -14,7 +14,7 @@ function BootstrapCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <Card title__slide="Slide 1" />
+          <Card titleSlide="Slide 1" />
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={500}>
@@ -24,7 +24,7 @@ function BootstrapCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <Card title__slide="Slide 2" />
+          <Card titleSlide="Slide 2" />
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -34,7 +34,7 @@ function BootstrapCarousel() {
           alt="Third slide"
         />
         <Carousel.Caption>
-          <Card title__slide="Slide 3" />
+          <Card titleSlide="Slide 3" />
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

@@ -4,14 +4,14 @@ import PropTypes from 'prop-types';
 
 function Card(props) {
   return (
-    <div className="title__slide">
-      <h3>{props.title__slide}</h3>
+    <div className="title__Slide">
+      <h3>{props.titleSlide}</h3>
     </div>
   );
 }
 
 Card.propTypes = {
-  title__slide: PropTypes.string
+  titleSlide: PropTypes.string
 }
 
 export default Card;
